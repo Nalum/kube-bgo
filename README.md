@@ -1,14 +1,12 @@
 # kube-bgo
 
-kube-bgo is an operator for Kubernetes that is attempting to manage the life cycle
-of an application using the Blue/Green deployment methodology.
+kube-bgo is an operator for Kubernetes that is attempting to manage the life cycle of an application using the Blue/Green deployment methodology.
 
-It will ensure that a new `Deployment` is fully rolled out before it is made available
-via the `Service`.
+It will ensure that a new `Deployment` is fully rolled out before it is made available via the `Service`.
 
 ## Blue/Green Deployments
 
-The aim of this Operator is to enable the Blue/Green deployment pattern using Kubernetes Deployments. With this Operator you will be adding a `CRD` `BGDeploy` to your Kubernetes Cluster that will create and manage the Kubernetes Resources required to support the Blue/Green deployment pattern.
+The aim of this Operator is to enable the Blue/Green deployment methodology using Kubernetes Deployments. With this Operator you will be adding a `CRD` `BGDeploy` to your Kubernetes Cluster that will create and manage the Kubernetes Resources required to support the Blue/Green deployment methodology.
 
 ## Creating a BGDeploy Resource
 
