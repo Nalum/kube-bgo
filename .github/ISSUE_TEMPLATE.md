@@ -16,6 +16,5 @@
 **Environment**:
 
 - Kubernetes version (use `kubectl version`):
-- Cloud provider or hardware configuration:
 - Install tools:
 - Others:
