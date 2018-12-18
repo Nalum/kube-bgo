@@ -1,0 +1,14 @@
+baseURL = "https://kube-bgo.github.io/"
+languageCode = "en-IE"
+title = "Kube BGO"
+theme = "docdock"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/axonista/kube-bgo"
+weight = 1

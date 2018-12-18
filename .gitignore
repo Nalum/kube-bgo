@@ -170,6 +170,8 @@ Session.vim
 *~
 # Auto-generated tag files
 tags
+
+!docs/public/tags
 # Persistent undo
 [._]*.un~
 
